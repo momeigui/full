@@ -1,0 +1,44 @@
+head {color:red;}
+
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+
+a:link {color:#000000;}      /* 未访问链接*/
+a:visited {color:#ffffff;}  /* 已访问链接 */
+a:hover {color:#5cbd58;}  /* 鼠标移动到链接上 */
+a:active {color:#494949;}  /* 鼠标点击时 */
+
+.item {
+    font-family: system-ui;
+    color:rgb(255, 255, 255);
+    margin: 8px auto;
+    width: 80%;
+    border: 3px solid rgb(133, 77, 77);
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size : 2vw;
+    background: rgb(133, 77, 77);
+    box-shadow: 2px 2px 2px #1e222b;
+}
+
+canvas {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+h1 {
+    font-family: system-ui;
+    background: #363e4e;
+    color: white;
+    text-align: center;
+    font-size : 5vw;
+  }
+  body {
+    font-family: system-ui;
+    background: #363e4e;
+  }
+

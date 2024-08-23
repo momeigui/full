@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="6.1.8" apprev="17956">
+  <panorama id="node1">
+    <input levelingpitch="0" leveltilesize="510" width="2048" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400" height="2048" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" width="2048" preload="0" height="2048"/>
+      <level predecode="0" width="1024" preload="0" height="1024"/>
+      <level predecode="0" width="512" preload="0" height="512"/>
+      <level predecode="1" width="256" preload="1" height="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" pan="360" scaletofit="1" fov="120" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" author="" copyright="" datetime="" source="" title="eyJEUlNBcHBOYW1lIiA6ICJVRTRFZGl0b3IuZXhlIiwgIkRSU1Byb2ZpbGVOYW1lIiA6ICJVbnJlYWwgRW5naW5lIERlbW8iLCAiU2hvcnROYW1lIiA6ICIiLCAiQ21zSWQiIDogIiJ9" comment="" tags="Unreal Engine Demo" nodeid="node1" description="" heading="0" customnodeid="" info="" longitude=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label border="1" borderradius="1" enabled="1" width="180" wordwrap="1" textalpha="1" borderalpha="1" bordercolor="0x000000" backgroundalpha="1" background="1" height="20" textcolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <video stretch="1.000" ambientlevel="0.000" field="90.000" poster="media/微信图片_20210412171420.jpg" id="Element01" startmutedmobile="0" width="100" fov="7.202" tilt="-0.720" pan="-97.270" clickmode="1" loop="1" mode="3" rotx="1.000" pansize="10.000" handcursor="1" nodechangekeep="0" tiltsize="10.000" rotz="0.000" level="1.000" roty="-57.000" height="100">
+        <source url="media/微信图片_20210412171420.jpg"/>
+      </video>
+    </media>
+    <transition zoomspeed="2" zoomout="0" zoomoutpause="1" blendcolor="0x000000" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" zoomin="0" softedge="0"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control invertcontrol="1" lockedkeyboard="0" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" simulatemass="1" lockedmouse="0" rubberband="0" contextfullscreen="1" hideabout="0" invertwheel="0" dblclickfullscreen="0" sensitivity="8"/>
+  </panorama>
+  <masternode>
+    <userdata latitude="" author="" copyright="" datetime="" source="" title="" comment="" tags="" nodeid="master" description="" heading="0" customnodeid="" info="" longitude=""/>
+  </masternode>
+</tour>

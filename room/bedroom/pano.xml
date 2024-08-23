@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="17956" hideabout="1" id="node1" appversion="6.1.8">
+  <input width="1250" height="1250" levelbiashidpi="1.000" overlap="1" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" levelingpitch="0">
+    <level width="1250" height="1250" predecode="0" preload="0"/>
+    <level width="625" height="625" predecode="0" preload="0"/>
+    <level width="312" height="312" predecode="1" preload="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" fov="70" pan="0" tilt="0"/>
+    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <min fov="50" pan="0" tilt="-90"/>
+    <max fovfisheye="360" scaletofit="1" fovstereographic="270" fov="90" pan="360" tilt="90"/>
+  </view>
+  <userdata datetime="2020/12/15 21:49" copyright="" source="" latitude="" nodeid="node1" customnodeid="" title="" comment="" tags="桌面" author="" info="" description="" heading="0" longitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" height="20" textcolor="0x000000" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" border="1" bordercolor="0x000000"/>
+    <polystyle mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+  </hotspots>
+  <media/>
+  <transition zoomfov="20" zoomoutpause="1" enabled="1" softedge="0" zoomspeed="2" zoomout="0" type="crossdissolve" blendcolor="0x000000" blendtime="1" zoomin="0"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control lockedwheel="0" invertcontrol="1" speedwheel="1" lockedkeyboardzoom="0" simulatemass="1" rubberband="0" lockedmouse="0" invertwheel="0" lockedkeyboard="0" hideabout="1" dblclickfullscreen="0" contextfullscreen="1" contextprojections="1" sensitivity="8">
+    <menulink url="amor.spem.site" text="amor-spem"/>
+  </control>
+</panorama>
