@@ -1,0 +1,84 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000455" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-270.0000000000003" scrolly="-33.999999999999886" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="PD/)h%e1Ip/nFowJr7.d" inline="false" x="430" y="130">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Nrh*D#^Mp?}H;0,z!+kD">
+          <field name="FIELDNAME">左前门</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="createVector" id="![^hfTU#wUG2m*w,Q+F)" x="310" y="250">
+      <value name="X">
+        <shadow type="math_number" id="D;%Y/yXeYL7Y,xX{[/hL">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="Y">
+        <shadow type="math_number" id="w(F8w)}g4qv:Se/VhWv6">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="Z">
+        <shadow type="math_number" id="f]a?~X--54#TTIwevbi:">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setObjTransform" id="A2^9$c7{K;D)5o*eg%uA" x="550" y="290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+      <field name="MODE">rotation</field>
+      <field name="OFFSET">FALSE</field>
+      <value name="TARGETOBJ">
+        <shadow type="objectList" id="GqV0E}-B?3=hH08lU)1;">
+          <field name="FIELDNAME">右前门</field>
+        </shadow>
+      </value>
+      <value name="X">
+        <block type="math_number" id="#,]s`%vMXoz/;ha`NtuB">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+      <value name="Y">
+        <block type="math_number" id="t{:b0Y1*)}eI3u$W[GK`">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+      <value name="Z">
+        <block type="math_number" id="XsaWAPGo(k=MAX+Q6(JX">
+          <field name="NUM">0</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="~lP6{U@60!BYH8QP=m-3" x="750" y="350">
+      <field name="X_RAY">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="57}+Nt6.IaVI)x[tEaQQ">
+          <field name="FIELDNAME">左前门</field>
+        </shadow>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragRotateAdv" id="FqAu1$}[TIc)Tu[bB[ij">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enablespace="false"></mutation>
+          <field name="AXIS">Z</field>
+          <field name="SPACE_TYPE">WORLD</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="n2E%!5,bEb;iPofpSde$">
+              <field name="FIELDNAME">左前门</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1108.1999999999998" viewport-y="40" viewport-w="386.797" viewport-h="368" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
